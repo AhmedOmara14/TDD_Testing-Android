@@ -12,8 +12,8 @@ interface ShoppingDao {
     suspend fun deleteShoppingItem(shoppingItem: ShoppingItem)
 
     @Query("SELECT * FROM Shopping")
-    suspend fun getAllShoppingItems(): LiveData<List<ShoppingItem>>
+    fun getAllShoppingItems(): LiveData<List<ShoppingItem>>
 
     @Query("SELECT SUM(amount*price) FROM Shopping")
-    suspend fun getTotalPriceOfItems(): LiveData<Float>
+    fun getTotalPriceOfItems(): LiveData<Float>
 }

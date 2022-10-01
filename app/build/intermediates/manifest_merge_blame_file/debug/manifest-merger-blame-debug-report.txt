@@ -1,0 +1,154 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.omaradev.unittesting"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->E:\TDD_Testing_Android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->E:\TDD_Testing_Android\app\src\main\AndroidManifest.xml
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] C:\Users\Ahmed\.gradle\caches\transforms-3\0b73688b07988dd2961c16f6c29fc860\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.omaradev.unittesting.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] C:\Users\Ahmed\.gradle\caches\transforms-3\0b73688b07988dd2961c16f6c29fc860\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] C:\Users\Ahmed\.gradle\caches\transforms-3\0b73688b07988dd2961c16f6c29fc860\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.omaradev.unittesting.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] C:\Users\Ahmed\.gradle\caches\transforms-3\0b73688b07988dd2961c16f6c29fc860\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] C:\Users\Ahmed\.gradle\caches\transforms-3\0b73688b07988dd2961c16f6c29fc860\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+16    <uses-permission android:name="android.permission.REORDER_TASKS" />
+16-->[androidx.test:core:1.4.0] C:\Users\Ahmed\.gradle\caches\transforms-3\fbc28f328c82dcce193bb2e99854535d\transformed\core-1.4.0\AndroidManifest.xml:24:5-72
+16-->[androidx.test:core:1.4.0] C:\Users\Ahmed\.gradle\caches\transforms-3\fbc28f328c82dcce193bb2e99854535d\transformed\core-1.4.0\AndroidManifest.xml:24:22-69
+17
+18    <application
+18-->E:\TDD_Testing_Android\app\src\main\AndroidManifest.xml:5:5-21:19
+19        android:allowBackup="true"
+19-->E:\TDD_Testing_Android\app\src\main\AndroidManifest.xml:6:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.9.0] C:\Users\Ahmed\.gradle\caches\transforms-3\0b73688b07988dd2961c16f6c29fc860\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->E:\TDD_Testing_Android\app\src\main\AndroidManifest.xml:7:9-43
+23        android:label="@string/app_name"
+23-->E:\TDD_Testing_Android\app\src\main\AndroidManifest.xml:8:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->E:\TDD_Testing_Android\app\src\main\AndroidManifest.xml:9:9-54
+25        android:supportsRtl="true"
+25-->E:\TDD_Testing_Android\app\src\main\AndroidManifest.xml:10:9-35
+26        android:testOnly="true"
+27        android:theme="@style/Theme.UnitTesting" >
+27-->E:\TDD_Testing_Android\app\src\main\AndroidManifest.xml:11:9-49
+28        <activity
+28-->E:\TDD_Testing_Android\app\src\main\AndroidManifest.xml:12:9-20:20
+29            android:name="com.omaradev.unittesting.MainActivity"
+29-->E:\TDD_Testing_Android\app\src\main\AndroidManifest.xml:13:13-41
+30            android:exported="true" >
+30-->E:\TDD_Testing_Android\app\src\main\AndroidManifest.xml:14:13-36
+31            <intent-filter>
+31-->E:\TDD_Testing_Android\app\src\main\AndroidManifest.xml:15:13-19:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->E:\TDD_Testing_Android\app\src\main\AndroidManifest.xml:16:17-69
+32-->E:\TDD_Testing_Android\app\src\main\AndroidManifest.xml:16:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->E:\TDD_Testing_Android\app\src\main\AndroidManifest.xml:18:17-77
+34-->E:\TDD_Testing_Android\app\src\main\AndroidManifest.xml:18:27-74
+35            </intent-filter>
+36        </activity>
+37
+38        <uses-library
+38-->[androidx.window:window:1.0.0] C:\Users\Ahmed\.gradle\caches\transforms-3\816af61e769b65f7333e160d6210f91c\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+39            android:name="androidx.window.extensions"
+39-->[androidx.window:window:1.0.0] C:\Users\Ahmed\.gradle\caches\transforms-3\816af61e769b65f7333e160d6210f91c\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+40            android:required="false" />
+40-->[androidx.window:window:1.0.0] C:\Users\Ahmed\.gradle\caches\transforms-3\816af61e769b65f7333e160d6210f91c\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+41        <uses-library
+41-->[androidx.window:window:1.0.0] C:\Users\Ahmed\.gradle\caches\transforms-3\816af61e769b65f7333e160d6210f91c\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+42            android:name="androidx.window.sidecar"
+42-->[androidx.window:window:1.0.0] C:\Users\Ahmed\.gradle\caches\transforms-3\816af61e769b65f7333e160d6210f91c\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+43            android:required="false" />
+43-->[androidx.window:window:1.0.0] C:\Users\Ahmed\.gradle\caches\transforms-3\816af61e769b65f7333e160d6210f91c\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+44
+45        <provider
+45-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Ahmed\.gradle\caches\transforms-3\351848c22376039758d6b11912ede03a\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+46            android:name="androidx.startup.InitializationProvider"
+46-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Ahmed\.gradle\caches\transforms-3\351848c22376039758d6b11912ede03a\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+47            android:authorities="com.omaradev.unittesting.androidx-startup"
+47-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Ahmed\.gradle\caches\transforms-3\351848c22376039758d6b11912ede03a\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+48            android:exported="false" >
+48-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Ahmed\.gradle\caches\transforms-3\351848c22376039758d6b11912ede03a\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+49            <meta-data
+49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Ahmed\.gradle\caches\transforms-3\351848c22376039758d6b11912ede03a\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+50                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Ahmed\.gradle\caches\transforms-3\351848c22376039758d6b11912ede03a\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+51                android:value="androidx.startup" />
+51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Ahmed\.gradle\caches\transforms-3\351848c22376039758d6b11912ede03a\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+52            <meta-data
+52-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Ahmed\.gradle\caches\transforms-3\5cdb28f8535d25c20bce4f4f0fda9f69\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+53                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+53-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Ahmed\.gradle\caches\transforms-3\5cdb28f8535d25c20bce4f4f0fda9f69\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+54                android:value="androidx.startup" />
+54-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Ahmed\.gradle\caches\transforms-3\5cdb28f8535d25c20bce4f4f0fda9f69\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+55        </provider>
+56
+57        <service
+57-->[androidx.room:room-runtime:2.4.3] C:\Users\Ahmed\.gradle\caches\transforms-3\ab99ef8e74353e06dba8b9a6137b453c\transformed\room-runtime-2.4.3\AndroidManifest.xml:25:9-28:40
+58            android:name="androidx.room.MultiInstanceInvalidationService"
+58-->[androidx.room:room-runtime:2.4.3] C:\Users\Ahmed\.gradle\caches\transforms-3\ab99ef8e74353e06dba8b9a6137b453c\transformed\room-runtime-2.4.3\AndroidManifest.xml:26:13-74
+59            android:directBootAware="true"
+59-->[androidx.room:room-runtime:2.4.3] C:\Users\Ahmed\.gradle\caches\transforms-3\ab99ef8e74353e06dba8b9a6137b453c\transformed\room-runtime-2.4.3\AndroidManifest.xml:27:13-43
+60            android:exported="false" />
+60-->[androidx.room:room-runtime:2.4.3] C:\Users\Ahmed\.gradle\caches\transforms-3\ab99ef8e74353e06dba8b9a6137b453c\transformed\room-runtime-2.4.3\AndroidManifest.xml:28:13-37
+61
+62        <activity
+62-->[androidx.test:core:1.4.0] C:\Users\Ahmed\.gradle\caches\transforms-3\fbc28f328c82dcce193bb2e99854535d\transformed\core-1.4.0\AndroidManifest.xml:27:9-34:20
+63            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+63-->[androidx.test:core:1.4.0] C:\Users\Ahmed\.gradle\caches\transforms-3\fbc28f328c82dcce193bb2e99854535d\transformed\core-1.4.0\AndroidManifest.xml:28:13-99
+64            android:exported="true"
+64-->[androidx.test:core:1.4.0] C:\Users\Ahmed\.gradle\caches\transforms-3\fbc28f328c82dcce193bb2e99854535d\transformed\core-1.4.0\AndroidManifest.xml:29:13-36
+65            android:theme="@android:style/Theme" >
+65-->[androidx.test:core:1.4.0] C:\Users\Ahmed\.gradle\caches\transforms-3\fbc28f328c82dcce193bb2e99854535d\transformed\core-1.4.0\AndroidManifest.xml:30:13-49
+66            <intent-filter>
+66-->[androidx.test:core:1.4.0] C:\Users\Ahmed\.gradle\caches\transforms-3\fbc28f328c82dcce193bb2e99854535d\transformed\core-1.4.0\AndroidManifest.xml:31:13-33:29
+67                <action android:name="android.intent.action.MAIN" />
+67-->E:\TDD_Testing_Android\app\src\main\AndroidManifest.xml:16:17-69
+67-->E:\TDD_Testing_Android\app\src\main\AndroidManifest.xml:16:25-66
+68            </intent-filter>
+69        </activity>
+70        <activity
+70-->[androidx.test:core:1.4.0] C:\Users\Ahmed\.gradle\caches\transforms-3\fbc28f328c82dcce193bb2e99854535d\transformed\core-1.4.0\AndroidManifest.xml:35:9-42:20
+71            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+71-->[androidx.test:core:1.4.0] C:\Users\Ahmed\.gradle\caches\transforms-3\fbc28f328c82dcce193bb2e99854535d\transformed\core-1.4.0\AndroidManifest.xml:36:13-95
+72            android:exported="true"
+72-->[androidx.test:core:1.4.0] C:\Users\Ahmed\.gradle\caches\transforms-3\fbc28f328c82dcce193bb2e99854535d\transformed\core-1.4.0\AndroidManifest.xml:37:13-36
+73            android:theme="@android:style/Theme" >
+73-->[androidx.test:core:1.4.0] C:\Users\Ahmed\.gradle\caches\transforms-3\fbc28f328c82dcce193bb2e99854535d\transformed\core-1.4.0\AndroidManifest.xml:38:13-49
+74            <intent-filter>
+74-->[androidx.test:core:1.4.0] C:\Users\Ahmed\.gradle\caches\transforms-3\fbc28f328c82dcce193bb2e99854535d\transformed\core-1.4.0\AndroidManifest.xml:31:13-33:29
+75                <action android:name="android.intent.action.MAIN" />
+75-->E:\TDD_Testing_Android\app\src\main\AndroidManifest.xml:16:17-69
+75-->E:\TDD_Testing_Android\app\src\main\AndroidManifest.xml:16:25-66
+76            </intent-filter>
+77        </activity>
+78        <activity
+78-->[androidx.test:core:1.4.0] C:\Users\Ahmed\.gradle\caches\transforms-3\fbc28f328c82dcce193bb2e99854535d\transformed\core-1.4.0\AndroidManifest.xml:43:9-50:20
+79            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+79-->[androidx.test:core:1.4.0] C:\Users\Ahmed\.gradle\caches\transforms-3\fbc28f328c82dcce193bb2e99854535d\transformed\core-1.4.0\AndroidManifest.xml:44:13-103
+80            android:exported="true"
+80-->[androidx.test:core:1.4.0] C:\Users\Ahmed\.gradle\caches\transforms-3\fbc28f328c82dcce193bb2e99854535d\transformed\core-1.4.0\AndroidManifest.xml:45:13-36
+81            android:theme="@android:style/Theme.Dialog" >
+81-->[androidx.test:core:1.4.0] C:\Users\Ahmed\.gradle\caches\transforms-3\fbc28f328c82dcce193bb2e99854535d\transformed\core-1.4.0\AndroidManifest.xml:46:13-56
+82            <intent-filter>
+82-->[androidx.test:core:1.4.0] C:\Users\Ahmed\.gradle\caches\transforms-3\fbc28f328c82dcce193bb2e99854535d\transformed\core-1.4.0\AndroidManifest.xml:31:13-33:29
+83                <action android:name="android.intent.action.MAIN" />
+83-->E:\TDD_Testing_Android\app\src\main\AndroidManifest.xml:16:17-69
+83-->E:\TDD_Testing_Android\app\src\main\AndroidManifest.xml:16:25-66
+84            </intent-filter>
+85        </activity>
+86    </application>
+87
+88</manifest>
