@@ -1,4 +1,4 @@
-package com.omaradev.unittesting.shooping_module.data.local
+package com.omaradev.unittesting.shopping_module.data.local
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
