@@ -21,8 +21,8 @@
 15-->[androidx.core:core:1.9.0] C:\Users\Ahmed\.gradle\caches\transforms-3\0b73688b07988dd2961c16f6c29fc860\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
 15-->[androidx.core:core:1.9.0] C:\Users\Ahmed\.gradle\caches\transforms-3\0b73688b07988dd2961c16f6c29fc860\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 16    <uses-permission android:name="android.permission.REORDER_TASKS" />
-16-->[androidx.test:core:1.4.0] C:\Users\Ahmed\.gradle\caches\transforms-3\fbc28f328c82dcce193bb2e99854535d\transformed\core-1.4.0\AndroidManifest.xml:24:5-72
-16-->[androidx.test:core:1.4.0] C:\Users\Ahmed\.gradle\caches\transforms-3\fbc28f328c82dcce193bb2e99854535d\transformed\core-1.4.0\AndroidManifest.xml:24:22-69
+16-->[androidx.test:core:1.4.0] C:\Users\Ahmed\.gradle\caches\transforms-3\1d9817221a82eb15c6e249a78a5fc02b\transformed\jetified-core-1.4.0\AndroidManifest.xml:24:5-72
+16-->[androidx.test:core:1.4.0] C:\Users\Ahmed\.gradle\caches\transforms-3\1d9817221a82eb15c6e249a78a5fc02b\transformed\jetified-core-1.4.0\AndroidManifest.xml:24:22-69
 17
 18    <application
 18-->E:\TDD_Testing_Android\app\src\main\AndroidManifest.xml:5:5-21:19
@@ -61,38 +61,38 @@
 36        </activity>
 37
 38        <uses-library
-38-->[androidx.window:window:1.0.0] C:\Users\Ahmed\.gradle\caches\transforms-3\816af61e769b65f7333e160d6210f91c\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+38-->[androidx.window:window:1.0.0] C:\Users\Ahmed\.gradle\caches\transforms-3\5f9d16ba9d2f43550049660a0735c2a6\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
 39            android:name="androidx.window.extensions"
-39-->[androidx.window:window:1.0.0] C:\Users\Ahmed\.gradle\caches\transforms-3\816af61e769b65f7333e160d6210f91c\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+39-->[androidx.window:window:1.0.0] C:\Users\Ahmed\.gradle\caches\transforms-3\5f9d16ba9d2f43550049660a0735c2a6\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
 40            android:required="false" />
-40-->[androidx.window:window:1.0.0] C:\Users\Ahmed\.gradle\caches\transforms-3\816af61e769b65f7333e160d6210f91c\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+40-->[androidx.window:window:1.0.0] C:\Users\Ahmed\.gradle\caches\transforms-3\5f9d16ba9d2f43550049660a0735c2a6\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
 41        <uses-library
-41-->[androidx.window:window:1.0.0] C:\Users\Ahmed\.gradle\caches\transforms-3\816af61e769b65f7333e160d6210f91c\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+41-->[androidx.window:window:1.0.0] C:\Users\Ahmed\.gradle\caches\transforms-3\5f9d16ba9d2f43550049660a0735c2a6\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
 42            android:name="androidx.window.sidecar"
-42-->[androidx.window:window:1.0.0] C:\Users\Ahmed\.gradle\caches\transforms-3\816af61e769b65f7333e160d6210f91c\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+42-->[androidx.window:window:1.0.0] C:\Users\Ahmed\.gradle\caches\transforms-3\5f9d16ba9d2f43550049660a0735c2a6\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
 43            android:required="false" />
-43-->[androidx.window:window:1.0.0] C:\Users\Ahmed\.gradle\caches\transforms-3\816af61e769b65f7333e160d6210f91c\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+43-->[androidx.window:window:1.0.0] C:\Users\Ahmed\.gradle\caches\transforms-3\5f9d16ba9d2f43550049660a0735c2a6\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
 44
 45        <provider
-45-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Ahmed\.gradle\caches\transforms-3\351848c22376039758d6b11912ede03a\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+45-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Ahmed\.gradle\caches\transforms-3\92073092078761d0fc2151997ad18d9f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
 46            android:name="androidx.startup.InitializationProvider"
-46-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Ahmed\.gradle\caches\transforms-3\351848c22376039758d6b11912ede03a\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+46-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Ahmed\.gradle\caches\transforms-3\92073092078761d0fc2151997ad18d9f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
 47            android:authorities="com.omaradev.unittesting.androidx-startup"
-47-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Ahmed\.gradle\caches\transforms-3\351848c22376039758d6b11912ede03a\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+47-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Ahmed\.gradle\caches\transforms-3\92073092078761d0fc2151997ad18d9f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
 48            android:exported="false" >
-48-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Ahmed\.gradle\caches\transforms-3\351848c22376039758d6b11912ede03a\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+48-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Ahmed\.gradle\caches\transforms-3\92073092078761d0fc2151997ad18d9f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
 49            <meta-data
-49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Ahmed\.gradle\caches\transforms-3\351848c22376039758d6b11912ede03a\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Ahmed\.gradle\caches\transforms-3\92073092078761d0fc2151997ad18d9f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
 50                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Ahmed\.gradle\caches\transforms-3\351848c22376039758d6b11912ede03a\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Ahmed\.gradle\caches\transforms-3\92073092078761d0fc2151997ad18d9f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
 51                android:value="androidx.startup" />
-51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Ahmed\.gradle\caches\transforms-3\351848c22376039758d6b11912ede03a\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Ahmed\.gradle\caches\transforms-3\92073092078761d0fc2151997ad18d9f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
 52            <meta-data
-52-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Ahmed\.gradle\caches\transforms-3\5cdb28f8535d25c20bce4f4f0fda9f69\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+52-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Ahmed\.gradle\caches\transforms-3\1414defce7c973fef0c035429bca014f\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
 53                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-53-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Ahmed\.gradle\caches\transforms-3\5cdb28f8535d25c20bce4f4f0fda9f69\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+53-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Ahmed\.gradle\caches\transforms-3\1414defce7c973fef0c035429bca014f\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
 54                android:value="androidx.startup" />
-54-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Ahmed\.gradle\caches\transforms-3\5cdb28f8535d25c20bce4f4f0fda9f69\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+54-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Ahmed\.gradle\caches\transforms-3\1414defce7c973fef0c035429bca014f\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
 55        </provider>
 56
 57        <service
@@ -105,45 +105,45 @@
 60-->[androidx.room:room-runtime:2.4.3] C:\Users\Ahmed\.gradle\caches\transforms-3\ab99ef8e74353e06dba8b9a6137b453c\transformed\room-runtime-2.4.3\AndroidManifest.xml:28:13-37
 61
 62        <activity
-62-->[androidx.test:core:1.4.0] C:\Users\Ahmed\.gradle\caches\transforms-3\fbc28f328c82dcce193bb2e99854535d\transformed\core-1.4.0\AndroidManifest.xml:27:9-34:20
+62-->[androidx.test:core:1.4.0] C:\Users\Ahmed\.gradle\caches\transforms-3\1d9817221a82eb15c6e249a78a5fc02b\transformed\jetified-core-1.4.0\AndroidManifest.xml:27:9-34:20
 63            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
-63-->[androidx.test:core:1.4.0] C:\Users\Ahmed\.gradle\caches\transforms-3\fbc28f328c82dcce193bb2e99854535d\transformed\core-1.4.0\AndroidManifest.xml:28:13-99
+63-->[androidx.test:core:1.4.0] C:\Users\Ahmed\.gradle\caches\transforms-3\1d9817221a82eb15c6e249a78a5fc02b\transformed\jetified-core-1.4.0\AndroidManifest.xml:28:13-99
 64            android:exported="true"
-64-->[androidx.test:core:1.4.0] C:\Users\Ahmed\.gradle\caches\transforms-3\fbc28f328c82dcce193bb2e99854535d\transformed\core-1.4.0\AndroidManifest.xml:29:13-36
+64-->[androidx.test:core:1.4.0] C:\Users\Ahmed\.gradle\caches\transforms-3\1d9817221a82eb15c6e249a78a5fc02b\transformed\jetified-core-1.4.0\AndroidManifest.xml:29:13-36
 65            android:theme="@android:style/Theme" >
-65-->[androidx.test:core:1.4.0] C:\Users\Ahmed\.gradle\caches\transforms-3\fbc28f328c82dcce193bb2e99854535d\transformed\core-1.4.0\AndroidManifest.xml:30:13-49
+65-->[androidx.test:core:1.4.0] C:\Users\Ahmed\.gradle\caches\transforms-3\1d9817221a82eb15c6e249a78a5fc02b\transformed\jetified-core-1.4.0\AndroidManifest.xml:30:13-49
 66            <intent-filter>
-66-->[androidx.test:core:1.4.0] C:\Users\Ahmed\.gradle\caches\transforms-3\fbc28f328c82dcce193bb2e99854535d\transformed\core-1.4.0\AndroidManifest.xml:31:13-33:29
+66-->[androidx.test:core:1.4.0] C:\Users\Ahmed\.gradle\caches\transforms-3\1d9817221a82eb15c6e249a78a5fc02b\transformed\jetified-core-1.4.0\AndroidManifest.xml:31:13-33:29
 67                <action android:name="android.intent.action.MAIN" />
 67-->E:\TDD_Testing_Android\app\src\main\AndroidManifest.xml:16:17-69
 67-->E:\TDD_Testing_Android\app\src\main\AndroidManifest.xml:16:25-66
 68            </intent-filter>
 69        </activity>
 70        <activity
-70-->[androidx.test:core:1.4.0] C:\Users\Ahmed\.gradle\caches\transforms-3\fbc28f328c82dcce193bb2e99854535d\transformed\core-1.4.0\AndroidManifest.xml:35:9-42:20
+70-->[androidx.test:core:1.4.0] C:\Users\Ahmed\.gradle\caches\transforms-3\1d9817221a82eb15c6e249a78a5fc02b\transformed\jetified-core-1.4.0\AndroidManifest.xml:35:9-42:20
 71            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
-71-->[androidx.test:core:1.4.0] C:\Users\Ahmed\.gradle\caches\transforms-3\fbc28f328c82dcce193bb2e99854535d\transformed\core-1.4.0\AndroidManifest.xml:36:13-95
+71-->[androidx.test:core:1.4.0] C:\Users\Ahmed\.gradle\caches\transforms-3\1d9817221a82eb15c6e249a78a5fc02b\transformed\jetified-core-1.4.0\AndroidManifest.xml:36:13-95
 72            android:exported="true"
-72-->[androidx.test:core:1.4.0] C:\Users\Ahmed\.gradle\caches\transforms-3\fbc28f328c82dcce193bb2e99854535d\transformed\core-1.4.0\AndroidManifest.xml:37:13-36
+72-->[androidx.test:core:1.4.0] C:\Users\Ahmed\.gradle\caches\transforms-3\1d9817221a82eb15c6e249a78a5fc02b\transformed\jetified-core-1.4.0\AndroidManifest.xml:37:13-36
 73            android:theme="@android:style/Theme" >
-73-->[androidx.test:core:1.4.0] C:\Users\Ahmed\.gradle\caches\transforms-3\fbc28f328c82dcce193bb2e99854535d\transformed\core-1.4.0\AndroidManifest.xml:38:13-49
+73-->[androidx.test:core:1.4.0] C:\Users\Ahmed\.gradle\caches\transforms-3\1d9817221a82eb15c6e249a78a5fc02b\transformed\jetified-core-1.4.0\AndroidManifest.xml:38:13-49
 74            <intent-filter>
-74-->[androidx.test:core:1.4.0] C:\Users\Ahmed\.gradle\caches\transforms-3\fbc28f328c82dcce193bb2e99854535d\transformed\core-1.4.0\AndroidManifest.xml:31:13-33:29
+74-->[androidx.test:core:1.4.0] C:\Users\Ahmed\.gradle\caches\transforms-3\1d9817221a82eb15c6e249a78a5fc02b\transformed\jetified-core-1.4.0\AndroidManifest.xml:31:13-33:29
 75                <action android:name="android.intent.action.MAIN" />
 75-->E:\TDD_Testing_Android\app\src\main\AndroidManifest.xml:16:17-69
 75-->E:\TDD_Testing_Android\app\src\main\AndroidManifest.xml:16:25-66
 76            </intent-filter>
 77        </activity>
 78        <activity
-78-->[androidx.test:core:1.4.0] C:\Users\Ahmed\.gradle\caches\transforms-3\fbc28f328c82dcce193bb2e99854535d\transformed\core-1.4.0\AndroidManifest.xml:43:9-50:20
+78-->[androidx.test:core:1.4.0] C:\Users\Ahmed\.gradle\caches\transforms-3\1d9817221a82eb15c6e249a78a5fc02b\transformed\jetified-core-1.4.0\AndroidManifest.xml:43:9-50:20
 79            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
-79-->[androidx.test:core:1.4.0] C:\Users\Ahmed\.gradle\caches\transforms-3\fbc28f328c82dcce193bb2e99854535d\transformed\core-1.4.0\AndroidManifest.xml:44:13-103
+79-->[androidx.test:core:1.4.0] C:\Users\Ahmed\.gradle\caches\transforms-3\1d9817221a82eb15c6e249a78a5fc02b\transformed\jetified-core-1.4.0\AndroidManifest.xml:44:13-103
 80            android:exported="true"
-80-->[androidx.test:core:1.4.0] C:\Users\Ahmed\.gradle\caches\transforms-3\fbc28f328c82dcce193bb2e99854535d\transformed\core-1.4.0\AndroidManifest.xml:45:13-36
+80-->[androidx.test:core:1.4.0] C:\Users\Ahmed\.gradle\caches\transforms-3\1d9817221a82eb15c6e249a78a5fc02b\transformed\jetified-core-1.4.0\AndroidManifest.xml:45:13-36
 81            android:theme="@android:style/Theme.Dialog" >
-81-->[androidx.test:core:1.4.0] C:\Users\Ahmed\.gradle\caches\transforms-3\fbc28f328c82dcce193bb2e99854535d\transformed\core-1.4.0\AndroidManifest.xml:46:13-56
+81-->[androidx.test:core:1.4.0] C:\Users\Ahmed\.gradle\caches\transforms-3\1d9817221a82eb15c6e249a78a5fc02b\transformed\jetified-core-1.4.0\AndroidManifest.xml:46:13-56
 82            <intent-filter>
-82-->[androidx.test:core:1.4.0] C:\Users\Ahmed\.gradle\caches\transforms-3\fbc28f328c82dcce193bb2e99854535d\transformed\core-1.4.0\AndroidManifest.xml:31:13-33:29
+82-->[androidx.test:core:1.4.0] C:\Users\Ahmed\.gradle\caches\transforms-3\1d9817221a82eb15c6e249a78a5fc02b\transformed\jetified-core-1.4.0\AndroidManifest.xml:31:13-33:29
 83                <action android:name="android.intent.action.MAIN" />
 83-->E:\TDD_Testing_Android\app\src\main\AndroidManifest.xml:16:17-69
 83-->E:\TDD_Testing_Android\app\src\main\AndroidManifest.xml:16:25-66
