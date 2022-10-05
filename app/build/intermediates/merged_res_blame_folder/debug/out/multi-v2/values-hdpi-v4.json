@@ -4,7 +4,7 @@
             "outputFile": "E:\\TDD_Testing_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Ahmed\\.gradle\\caches\\transforms-3\\c0547ecfa40b776c7e37f3bfd1f14958\\transformed\\appcompat-1.5.1\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "source": "C:\\Users\\Ahmed\\.gradle\\caches\\transforms-3\\e2f1547aa35b4f9100f11597cbff1d2f\\transformed\\appcompat-1.5.1\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

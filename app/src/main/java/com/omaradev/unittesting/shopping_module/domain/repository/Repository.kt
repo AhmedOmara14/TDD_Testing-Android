@@ -14,5 +14,5 @@ interface Repository {
 
     fun getTotalOfShoppingItems(): LiveData<Float>
 
-    suspend fun searchImage(imageQuery: String): Resource<ImagesResponse>
+    suspend fun searchImage(imageQuery: String): Resource<ImagesResponse?>
 }

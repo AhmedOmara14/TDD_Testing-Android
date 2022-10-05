@@ -8,7 +8,7 @@ import com.omaradev.unittesting.shopping_module.domain.model.images.ImagesRespon
 import com.omaradev.unittesting.shopping_module.domain.repository.Repository
 
 //Fake Repo For Test
-class Repository : Repository {
+class RepositoryTest : Repository {
 
     private val shoppingItems = mutableListOf<ShoppingItem>()
     private val observableShoppingItems = MutableLiveData<List<ShoppingItem>>(shoppingItems)
@@ -47,11 +47,11 @@ class Repository : Repository {
         return observableTotalPrice
     }
 
-    override suspend fun searchImage(imageQuery: String): Resource<ImagesResponse> {
+    override suspend fun searchImage(imageQuery: String): Resource<ImagesResponse?> {
         return if (shouldReturnNetworkError) {
-            Resource.Error<ImagesResponse>("Error ,")
+            Resource.error<ImagesResponse?>("Error ,")
         } else {
-            Resource.Success<ImagesResponse>(ImagesResponse(listOf(), 0, 0))
+            Resource.success<ImagesResponse?>(ImagesResponse(listOf(), 0, 0))
         }
     }
 }

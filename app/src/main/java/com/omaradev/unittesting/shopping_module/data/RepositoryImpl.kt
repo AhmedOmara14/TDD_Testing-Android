@@ -30,15 +30,15 @@ class RepositoryImpl
         return shoppingDao.getTotalPriceOfItems()
     }
 
-    override suspend fun searchImage(imageQuery: String): Resource<ImagesResponse> {
+    override suspend fun searchImage(imageQuery: String): Resource<ImagesResponse?> {
         return try {
-            Resource.Loading<ImagesResponse>()
+            Resource.loading<ImagesResponse?>()
             val images = api.searchImage(image = imageQuery)
-            return Resource.Success<ImagesResponse>(images.body())
+            return Resource.success<ImagesResponse?>(images.body())
         } catch (e: HttpException) {
-            Resource.Error<ImagesResponse>(e.localizedMessage ?: "an Error Occurred")
+            Resource.error<ImagesResponse?>(e.localizedMessage ?: "an Error Occurred")
         } catch (e: IOException) {
-            Resource.Error<ImagesResponse>("No Internet Connection, Check your Internet")
+            Resource.error<ImagesResponse?>("No Internet Connection, Check your Internet")
         }
     }
 
