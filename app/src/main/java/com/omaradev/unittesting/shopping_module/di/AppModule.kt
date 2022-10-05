@@ -4,8 +4,11 @@ import android.content.Context
 import androidx.room.Room
 import com.omaradev.unittesting.shopping_module.common.Constants.BASE_URL
 import com.omaradev.unittesting.shopping_module.common.Constants.DATABASE_NAME
+import com.omaradev.unittesting.shopping_module.data.RepositoryImpl
+import com.omaradev.unittesting.shopping_module.data.local.ShoppingDao
 import com.omaradev.unittesting.shopping_module.data.local.ShoppingItemDatabase
 import com.omaradev.unittesting.shopping_module.data.remote.Api
+import com.omaradev.unittesting.shopping_module.domain.repository.Repository
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -21,20 +24,27 @@ object AppModule {
     @Singleton
     @Provides
     fun provideDatabase(@ApplicationContext context: Context) =
-        Room.databaseBuilder(context, ShoppingItemDatabase::class.java, DATABASE_NAME).allowMainThreadQueries().build()
+        Room.databaseBuilder(context, ShoppingItemDatabase::class.java, DATABASE_NAME)
+            .allowMainThreadQueries().build()
 
 
     @Singleton
     @Provides
-    fun provideDao(database: ShoppingItemDatabase) =database.shoppingDao()
+    fun provideDao(database: ShoppingItemDatabase) = database.shoppingDao()
 
     @Provides
     @Singleton
-    fun provideRetrofit() : Api {
+    fun provideRetrofit(): Api {
         return Retrofit.Builder()
             .baseUrl(BASE_URL)
             .addConverterFactory(GsonConverterFactory.create())
             .build()
             .create(Api::class.java)
+    }
+
+    @Provides
+    @Singleton
+    fun provideRepository(api: Api, dao: ShoppingDao): Repository {
+        return RepositoryImpl(dao, api)
     }
 }
