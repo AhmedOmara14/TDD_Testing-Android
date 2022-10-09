@@ -20,8 +20,6 @@ class AddShoppingItemViewModelTest {
 
     @get:Rule
     val mainCoroutineRule = MainCoroutineRule()
-
-
     private lateinit var addShoppingItemViewModel: AddShoppingItemViewModel
 
     @Before
